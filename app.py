@@ -196,7 +196,7 @@ app.launch(debug=True)
     return python_code
 
 # --- Streamlit UI for Instructor ---
-st.set_page_config(page_title="Quiz Generator", layout="wide")
+st.set_page_config(page_title="Quiz Generator", layout="center")
 st.title("📝 Instructor Quiz Generator for Colab")
 st.markdown("Create a secure, interactive quiz, then copy the generated Python code into a Google Colab cell.")
 
